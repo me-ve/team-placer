@@ -1,0 +1,37 @@
+body
+{
+    background-color:#62708a;
+    color:snow;
+    font-family:'Helvetica';
+}
+#logo
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 6em;
+    margin: auto;
+}
+table
+{
+    width:100%;
+}
+.cell, .input
+{
+    color:snow;
+    height: 50px;
+    margin: auto;
+    font-size: larger;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    background-color:#778899;
+    border-radius: 5px;
+}
+.input
+{
+    background-color:#778899;
+}
+.lockCheckbox
+{
+    background-color:#778899;
+}
