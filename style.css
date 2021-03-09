@@ -1,37 +1,74 @@
-body
-{
-    background-color:#62708a;
-    color:snow;
-    font-family:'Helvetica';
+body {
+    background-color: #62708a;
+    color: snow;
+    font-family: 'Helvetica';
 }
-#logo
-{
+
+#logo {
     text-align: center;
     font-weight: bolder;
     font-size: 6em;
     margin: auto;
 }
-table
-{
-    width:100%;
+
+table {
+    margin: auto;
+    width: 50%;
 }
-.cell, .input
-{
-    color:snow;
+
+.cell,
+.textCell,
+.input,
+.textInput {
+    color: snow;
     height: 50px;
     margin: auto;
     font-size: larger;
-    padding-left:10px;
-    padding-right:10px;
-    text-align:center;
-    background-color:#778899;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #778899;
     border-radius: 5px;
 }
-.input
-{
-    background-color:#778899;
+
+.textCell {
+    width: 400px;
 }
-.lockCheckbox
-{
-    background-color:#778899;
+
+.input,
+.textInput {
+    color: snow;
+    margin: auto;
+    padding: 1px;
+    width: 100%;
+    font-size: larger;
+    font-family: Helvetica;
+    background-color: #778899;
+}
+
+.textInput {
+    width: 100%;
+    border: 0px;
+}
+
+.lockCheckbox {
+    width: 50px;
+    margin: auto;
+    background-color: #778899;
+}
+
+.buttontd {
+    width: 25%;
+}
+
+#buttons {
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    border: 0px;
+    display: block;
+    margin: auto;
+    width: 100%;
 }
