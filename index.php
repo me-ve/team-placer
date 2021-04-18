@@ -17,6 +17,7 @@
             </tr>
             <form id="teams">
             <?php
+            //TODO make this page PHP-free
                 for($i=1; $i<=5; $i++)
                 {
                     echo "<tr id='row$i'>";

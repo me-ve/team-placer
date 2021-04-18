@@ -63,7 +63,7 @@ function Import() {
     const input = document.createElement("input");
     input.addEventListener("change", GetFromFile);
     input.type = "file";
-    input.style = "visibility: hidden;"
+    input.style = "visibility: hidden";
     input.id = "importfile";
     document.body.appendChild(input);
     input.click();
